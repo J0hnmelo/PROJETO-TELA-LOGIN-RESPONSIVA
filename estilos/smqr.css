@@ -6,6 +6,89 @@
     --cor3: #d44d4d;
     --cor4: #c44029;
 }
+@media screen and (orientation: landscape) {
+    body {
+        background-color: blue;
+        overflow: hidden;
+    }
+    #formu {
+        height: 270px;
+        width: 260px;
+        position: relative;
+        left: 230px;
+    }
+    form {
+        position: relative;
+        top: -20px;
+        left: -60px;
+    }
+    #login {
+        width: 550px;
+        height: 270px;
+    }
+    #imagem {
+    background-image: url(../imagens/paisagem3.jpg);;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 270px;
+    width: 260px;
+    background-position: center bottom;
+    
+    }
+   
+    .mov {
+        position: relative;
+        top: -215px;
+        left: 101px;
+        margin-bottom: 5px;
+        cursor: pointer;
+    }
+    #iuser, #ipass {
+        position: relative;
+        top: -230px;
+        left: 101px;
+        border-radius: 5px;
+        border: 2px solid black;
+        text-align: center;
+    }
+    #lembrar2 {
+        position: relative;
+        left: 55.5%;
+        top: -210px;
+        text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.555);  
+    }
+    #ilembrar {
+        position: relative;
+        left: 55%;
+        top: -210px;
+    }
+    #entrar {
+        position: relative;
+        left: 38%;
+        top: -210px;
+        border-radius: 10px;
+        padding: 5px;
+        cursor: pointer;
+        text-shadow: 1px 0px 1px black;
+    }
+    a {
+        position: relative;
+        top: -185px;
+        left: 40%;
+    }
+    h1 {
+        position: relative;
+        left: 16%;
+        top: -265px;
+    }
+    #let {
+        position: relative;
+        top: -250px;
+        left: 45px;
+    }
+    
+}
 @media screen and (min-width: 726px) and (max-width: 992px) {
     body {
         background-color: blue;
