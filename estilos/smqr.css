@@ -39,14 +39,14 @@
    
     .mov {
         position: relative;
-        top: -215px;
+        top: -242px;
         left: 101px;
         margin-bottom: 5px;
         cursor: pointer;
     }
     #iuser, #ipass {
         position: relative;
-        top: -230px;
+        top: -250px;
         left: 101px;
         border-radius: 5px;
         border: 2px solid black;
@@ -55,18 +55,18 @@
     #lembrar2 {
         position: relative;
         left: 55.5%;
-        top: -210px;
+        top: -240px;
         text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.555);  
     }
     #ilembrar {
         position: relative;
         left: 55%;
-        top: -210px;
+        top: -240px;
     }
     #entrar {
         position: relative;
-        left: 38%;
-        top: -210px;
+        left: 32%;
+        top: -240px;
         border-radius: 10px;
         padding: 5px;
         cursor: pointer;
@@ -74,8 +74,9 @@
     }
     a {
         position: relative;
-        top: -185px;
+        top: -230px;
         left: 40%;
+        font-size: 0.8em;
     }
     h1 {
         position: relative;
@@ -84,7 +85,7 @@
     }
     #let {
         position: relative;
-        top: -250px;
+        top: -265px;
         left: 45px;
     }
     
@@ -122,14 +123,14 @@
    
     .mov {
         position: relative;
-        top: -215px;
+        top: -245px;
         left: 101px;
         margin-bottom: 5px;
         cursor: pointer;
     }
     #iuser, #ipass {
         position: relative;
-        top: -230px;
+        top: -250px;
         left: 101px;
         border-radius: 5px;
         border: 2px solid black;
@@ -138,18 +139,18 @@
     #lembrar2 {
         position: relative;
         left: 55.5%;
-        top: -210px;
+        top: -240px;
         text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.555);  
     }
     #ilembrar {
         position: relative;
         left: 55%;
-        top: -210px;
+        top: -240px;
     }
     #entrar {
         position: relative;
-        left: 38%;
-        top: -210px;
+        left: 32%;
+        top: -240px;
         border-radius: 10px;
         padding: 5px;
         cursor: pointer;
@@ -157,7 +158,7 @@
     }
     a {
         position: relative;
-        top: -185px;
+        top: -230px;
         left: 40%;
     }
     h1 {
@@ -167,7 +168,7 @@
     }
     #let {
         position: relative;
-        top: -250px;
+        top: -265px;
         left: 45px;
     }
     
@@ -195,6 +196,7 @@
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 0px;
     border-top-left-radius: 0px;
+    border-top-right-radius: 20px;
     height: 300px;
     width: 320px;
     background-position: center bottom;
@@ -206,34 +208,34 @@
     .mov {
         position: relative;
         top: -254.9px;
-        left: -201px;
+        left: -151px;
         margin-bottom: 5px;
         cursor: pointer;
     }
     #iuser, #ipass {
         position: relative;
         top: -270px;
-        left: -201px;
+        left: -151px;
         border-radius: 5px;
         border: 2px solid black;
         text-align: center;
-        width: 200px;
+        width: 220px;
     }
     #lembrar2 {
         position: relative;
-        left: -55.5%;
-        top: -260px;
+        left: -35.5%;
+        top: -245px;
         text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.555);  
     }
     #ilembrar {
         position: relative;
-        left: -55%;
-        top: -260px;
+        left: -35%;
+        top: -245px;
     }
     #entrar {
         position: relative;
-        left: -80%;
-        top: -260px;
+        left: -60%;
+        top: -245px;
         border-radius: 10px;
         padding: 7px;
         font-size: 1.05em;
@@ -242,8 +244,8 @@
     }
     a {
         position: relative;
-        top: -235px;
-        left: -75%;
+        top: -215px;
+        left: -55%;
         font-size: 1.04em;
     }
     h1 {
@@ -309,20 +311,20 @@
     }
     #lembrar2 {
         position: relative;
-        left: -26.5%;
-        top: -360px;
+        left: -6.5%;
+        top: -350px;
         text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.555);  
         font-size: 1.1em;
     }
     #ilembrar {
         position: relative;
-        left: -26%;
-        top: -360px;
+        left: -6%;
+        top: -350px;
     }
     #entrar {
         position: relative;
-        left: -65%;
-        top: -360px;
+        left: -55%;
+        top: -350px;
         border-radius: 10px;
         padding: 7px;
         font-size: 1.05em;
@@ -331,8 +333,8 @@
     }
     a {
         position: relative;
-        top: -325px;
-        left: -60%;
+        top: -310px;
+        left: -40%;
         font-size: 1.04em;
     }
     h1 {
