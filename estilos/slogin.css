@@ -45,15 +45,7 @@ body {
     width: 300px;
     height: 250px; 
 }
-#simbol {
-    position: absolute;
-    top: 94%;
-    left:40%;
-}
-#simbol > img {
-    border: solid 3px black;
-    border-radius: 50px ;
-}
+
 #log {
     mix-blend-mode: multiply;
     border: 2px solid black;
@@ -95,6 +87,8 @@ body {
 }
 #entrar {
     background-color: white;
+    border: 1px solid black;
+    color: black;
     border-radius: 10px;
     padding: 5px;
     cursor: pointer;
