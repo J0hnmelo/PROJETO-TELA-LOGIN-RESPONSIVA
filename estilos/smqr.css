@@ -1,0 +1,280 @@
+@charset "UTF-8";
+/*CSS para as demais telas*/
+:root {
+    --cor1: #9E7854;
+    --cor2: #262626;
+    --cor3: #d44d4d;
+    --cor4: #c44029;
+}
+@media screen and (min-width: 726px) and (max-width: 992px) {
+    body {
+        background-color: blue;
+        overflow: hidden;
+    }
+    #formu {
+        height: 270px;
+        width: 260px;
+        position: relative;
+        left: 230px;
+    }
+    form {
+        position: relative;
+        top: -20px;
+        left: -60px;
+    }
+    #login {
+        width: 550px;
+        height: 270px;
+    }
+    #imagem {
+    background-image: url(../imagens/paisagem3.jpg);;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 270px;
+    width: 260px;
+    background-position: center bottom;
+    
+    }
+    #simbol {
+        position: absolute;
+        left:137%;
+        top: -161%;
+        transform: rotate(300grad);
+    }
+    .mov {
+        position: relative;
+        top: -215px;
+        left: 101px;
+        margin-bottom: 5px;
+        cursor: pointer;
+    }
+    #iuser, #ipass {
+        position: relative;
+        top: -230px;
+        left: 101px;
+        border-radius: 5px;
+        border: 2px solid black;
+        text-align: center;
+    }
+    #lembrar2 {
+        position: relative;
+        left: 55.5%;
+        top: -210px;
+        text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.555);  
+    }
+    #ilembrar {
+        position: relative;
+        left: 55%;
+        top: -210px;
+    }
+    #entrar {
+        position: relative;
+        left: 38%;
+        top: -210px;
+        border-radius: 10px;
+        padding: 5px;
+        cursor: pointer;
+        text-shadow: 1px 0px 1px black;
+    }
+    a {
+        position: relative;
+        top: -185px;
+        left: 40%;
+    }
+    h1 {
+        position: relative;
+        left: 16%;
+        top: -265px;
+    }
+    #let {
+        position: relative;
+        top: -250px;
+        left: 45px;
+    }
+    
+        
+    
+}
+
+@media screen and (min-width: 993px) and (max-width:1200px) {
+    body {
+        background-image: url(../imagens/paisagem3.jpg);
+        overflow: hidden;
+    }
+    #formu {
+        height: 270px;
+        width: 260px;
+        position: relative;
+        left: 230px;
+    }
+    #login {
+        width: 640px;
+        height: 300px;
+    }
+    #imagem {
+    background-image: url(../imagens/paisagem3.jpg);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    height: 300px;
+    width: 320px;
+    background-position: center bottom;
+    position: relative;
+    left: 50%;
+    }
+    #simbol {
+        position: absolute;
+        left:-100%;
+        top: -65.5%;
+        transform: rotate(-300grad);
+    }
+    .mov {
+        position: relative;
+        top: -254.9px;
+        left: -201px;
+        margin-bottom: 5px;
+        cursor: pointer;
+    }
+    #iuser, #ipass {
+        position: relative;
+        top: -270px;
+        left: -201px;
+        border-radius: 5px;
+        border: 2px solid black;
+        text-align: center;
+        width: 200px;
+    }
+    #lembrar2 {
+        position: relative;
+        left: -55.5%;
+        top: -260px;
+        text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.555);  
+    }
+    #ilembrar {
+        position: relative;
+        left: -55%;
+        top: -260px;
+    }
+    #entrar {
+        position: relative;
+        left: -80%;
+        top: -260px;
+        border-radius: 10px;
+        padding: 7px;
+        font-size: 1.05em;
+        cursor: pointer;
+        text-shadow: 1px 0px 1px black;
+    }
+    a {
+        position: relative;
+        top: -235px;
+        left: -75%;
+        font-size: 1.04em;
+    }
+    h1 {
+        position: relative;
+        left: -75%;
+        top: -285px;
+        font-size: 2em;
+    }
+    #let {
+        position: relative;
+        top: -280px;
+        left: -199px;
+    }
+    
+}
+@media screen and (min-width: 1200px) {
+    body {
+        background-image: url(../imagens/paisagem3.jpg);
+        background-position: center center;
+        background-size: cover;
+        overflow: hidden;
+    }
+    #formu {
+        height: 270px;
+        width: 260px;
+        position: relative;
+        left: 230px;
+    }
+    #login {
+        width: 840px;
+        height: 400px;
+    }
+    #imagem {
+    background-image: url(../imagens/paisagem3.jpg);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    height: 400px;
+    width: 420px;
+    background-position: center bottom;
+    position: relative;
+    left: 50%;
+    }
+    #simbol {
+        position: absolute;
+        left:-100%;
+        top: -82%;
+        transform: rotate(-300grad);
+    }
+    .mov {
+        position: relative;
+        top: -342.9px;
+        left: -291px;
+        margin-bottom: 5px;
+        cursor: pointer;
+        
+    }
+    #iuser, #ipass {
+        position: relative;
+        top: -379px;
+        left: -141px;
+        border-radius: 5px;
+        border: 2px solid black;
+        text-align: center;
+        height: 20px;
+        width: 250px;
+    }
+    #lembrar2 {
+        position: relative;
+        left: -26.5%;
+        top: -360px;
+        text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.555);  
+        font-size: 1.1em;
+    }
+    #ilembrar {
+        position: relative;
+        left: -26%;
+        top: -360px;
+    }
+    #entrar {
+        position: relative;
+        left: -65%;
+        top: -360px;
+        border-radius: 10px;
+        padding: 7px;
+        font-size: 1.05em;
+        cursor: pointer;
+        text-shadow: 1px 0px 1px black;
+    }
+    a {
+        position: relative;
+        top: -325px;
+        left: -60%;
+        font-size: 1.04em;
+    }
+    h1 {
+        position: relative;
+        left: -62%;
+        top: -385px;
+        font-size: 2.8em;
+    }
+    #let {
+        position: relative;
+        top: -380px;
+        left: -159px;
+        font-size: 1.3em;
+    }
+}

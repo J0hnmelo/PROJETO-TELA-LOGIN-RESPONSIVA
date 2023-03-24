@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/*CSS mobile first*/
+:root {
+    --cor1: #9E7854;
+    --cor2: #262626;
+    --cor3: #d44d4d;
+    --cor4: #c44029;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    background-image: url(../imagens/paisagem3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    backdrop-filter: blur(4px);
+    width: 100vw;
+    height: 100vh;
+    
+}
+#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid;
+    border-radius: 20px;
+    text-align: center;
+    background-image: linear-gradient(172grad,#262626fd, #dd492f );
+    width: 300px;
+    height: 495px;
+}
+#imagem {
+    background-image: url(../imagens/paisagem3.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 300px;
+    height: 250px; 
+}
+#simbol {
+    position: absolute;
+    top: 94%;
+    left:40%;
+}
+#simbol > img {
+    border: solid 3px black;
+    border-radius: 50px ;
+}
+#log {
+    mix-blend-mode: multiply;
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 25px;
+    
+}
+.mov {
+    position: relative;
+    top: 7px;
+    left: -11px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+#iuser, #ipass {
+    position: relative;
+    top: -8px;
+    left: -11px;
+    border-radius: 5px;
+    border: 2px solid black;
+    text-align: center;
+}
+#iuser:hover, #ipass:hover {
+    background-color: rgba(211, 211, 211, 0.747);
+}
+#iuser::placeholder, #ipass::placeholder {
+    color: black;
+}
+#lembrar2 {
+    position: relative;
+    left: 15%;
+    text-shadow: 1px 0px 1px rgba(0, 0, 0, 0.555);
+    
+}
+#ilembrar {
+    position: relative;
+    left: 15%;
+    top: 1.8px;
+}
+#entrar {
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    text-shadow: 1px 0px 1px black;
+}
+#entrar:hover {
+    transform: scale(1.05);
+    box-shadow: 1px 1px 1px black;
+}
+a {
+    font-size: .9em;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 8px;
+    border: 2px solid black;
+    background-color: #f0f0f0d8;
+    border-radius: 10px;
+    padding: 4px;
+    text-shadow: 1px 0px 1px black;
+}
+#esq:hover {
+    padding: 5px;
+    box-shadow: inset 1px 1px 1px black;
+}
+u {
+    text-decoration: underline;
+    text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.363);
+    position: relative;
+    top: -4px;
+    
+}
