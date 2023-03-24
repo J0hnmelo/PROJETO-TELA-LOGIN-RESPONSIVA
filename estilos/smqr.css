@@ -36,12 +36,7 @@
     background-position: center bottom;
     
     }
-    #simbol {
-        position: absolute;
-        left:137%;
-        top: -161%;
-        transform: rotate(300grad);
-    }
+   
     .mov {
         position: relative;
         top: -215px;
@@ -123,12 +118,8 @@
     position: relative;
     left: 50%;
     }
-    #simbol {
-        position: absolute;
-        left:-100%;
-        top: -65.5%;
-        transform: rotate(-300grad);
-    }
+    
+    
     .mov {
         position: relative;
         top: -254.9px;
@@ -213,12 +204,7 @@
     position: relative;
     left: 50%;
     }
-    #simbol {
-        position: absolute;
-        left:-100%;
-        top: -82%;
-        transform: rotate(-300grad);
-    }
+    
     .mov {
         position: relative;
         top: -342.9px;
